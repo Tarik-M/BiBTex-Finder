@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head><title>Test</title>
+  
+  <!-- Design -->
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300">
+  <style>
+	body {padding:0px; margin:0px;}
+	form {
+		padding:0px 1px 2px 7px; 
+		margin:2px 0px 2px 0px;
+		border-bottom:#CCC dotted 1px;
+	}
+	form div {
+		font-family: 'Open Sans', sans-serif;
+		color:#848484;
+		line-height:36px;
+		display:inline;
+	}
+	::-webkit-input-placeholder { color: #acacac; }
+	input {
+		margin:0px 1px;
+		padding:0px;
+		border:none;
+		background-color:#CCC;
+		height:36px;
+		width:137px;
+		vertical-align:bottom;
+		font-size:16px;
+	}
+	input[type=submit]{
+		background:#30aa13;
+		color:#fff;
+		width: inherit;
+		padding:0px 7px;
+	}
+  </style>
+  </head>
+  
+  <!-- Button and js file -->
+  <body>
+  <form>
+	<input style="width:400px; height:60px;font-size:20px;" id="clickMe" type="submit" value="Click Here To Generate BiBTex Key" onclick="doFunction();" />
+  </form>
+  <script src="popup.js"></script>
+  </body>
+</html>
+

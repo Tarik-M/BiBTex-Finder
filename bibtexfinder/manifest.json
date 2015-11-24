@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+
+  "name": "BiBTex Key Finder",
+  "description": "This extension is for getting fast BiBTex info from a webpage without manually typing in most of the info yourself.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	"default_title": "Click here to start!"
+  },
+  
+  
+  "permissions": [
+    "activeTab"
+  ],
+  
+  
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+		  
+		  
+  "commands": {
+  "_execute_browser_action": {
+    "suggested_key": {
+      "windows": "Ctrl+Shift+Y",
+      "mac": "Command+Shift+Y",
+      "chromeos": "Ctrl+Shift+U",
+      "linux": "Ctrl+Shift+J"
+    }
+  }
+}
+}
