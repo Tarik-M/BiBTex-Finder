@@ -1,3 +1,5 @@
+//JS code
+
 chrome.tabs.query({
     active: true,
     lastFocusedWindow: true
